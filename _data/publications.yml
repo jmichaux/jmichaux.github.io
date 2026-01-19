@@ -5,9 +5,58 @@
   project: "https://roahmlab.github.io/splanning/"
   image: "/assets/images/papers/splanning.png"
 
+- title: "Can't Touch This: Real-Time, Safe Motion Planning and Control for Manipulators Under Uncertainty"
+  authors: "Jonathan Michaux, Patrick Holmes, Bohao Zhang, Che Chen, Baiyue Wang, Shrey Sahgal, Tiancheng Zhang, Sidhartha Dey, Shreyas Kousik, Ram Vasudevan"
+  venue: "IEEE T-RO, 2025 (accepted)"
+  pdf: "https://arxiv.org/pdf/2301.13308.pdf"
+  project: "https://roahmlab.github.io/armour/"
+  image: "/assets/images/papers/armour.png"
+
+- title: "Conformalized Reachable Sets for Obstacle Avoidance With Spheres"
+  authors: "Yongseok Kwon, Jonathan Michaux, Ram Vasudevan"
+  venue: "ICRA, 2025 (accepted)"
+  pdf: ""  # add when you have it
+  project: "https://roahmlab.github.io/crows/"
+  image: "/assets/images/papers/crows2.png"
+
+- title: "Reachability-based Trajectory Design via Exact Formulation of Implicit Neural Signed Distance Functions"
+  authors: "Jonathan Michaux*, Qingyi Chen*, Challen Enninful Adu, Jinsun Liu, Ram Vasudevan"
+  venue: ""  # add venue/year if you want
+  pdf: "https://arxiv.org/pdf/2403.12280/"
+  project: "https://roahmlab.github.io/redefined/"
+  image: "/assets/images/papers/redefine_opening_figure.png"
+
 - title: "Safe Planning for Articulated Robots Using Reachability-based Obstacle Avoidance With Spheres"
   authors: "Jonathan Michaux, Adam Li, Qingyi Chen, Che Chen, Bohao Zhang, Ram Vasudevan"
   venue: "Robotics: Science and Systems, 2024"
   pdf: "https://arxiv.org/pdf/2402.08857.pdf"
   project: "https://roahmlab.github.io/sparrows/"
   image: "/assets/images/papers/sparrows.png"
+
+- title: "Serving Time: Real-Time, Safe Motion Planning and Control for Manipulation of Unsecured Objects"
+  authors: "Zachary Brei, Jonathan Michaux, Bohao Zhang, Patrick Holmes, Ram Vasudevan"
+  venue: "IEEE Robotics and Automation Letters (RA-L), 2024"
+  pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10403905"
+  project: "https://roahmlab.github.io/waitr-dev/"
+  image: "/assets/images/papers/waitr.png"
+
+- title: "Reachability-based Trajectory Design with Neural Implicit Safety Constraints"
+  authors: "Jonathan Michaux, Qingyi Chen, Yong Seok Kown, Ram Vasudevan"
+  venue: "Robotics: Science and Systems, 2023"
+  pdf: "https://www.roboticsproceedings.org/rss19/p062.pdf"
+  project: "https://roahmlab.github.io/RDF/"
+  image: "/assets/images/papers/rdf.png"
+
+- title: "Modulating RhoA effectors induces transitions to oscillatory and more wavelike RhoA dynamics in Caenorhabditis elegans zygotes"
+  authors: "Baixue Yao, Seth Donoughe, Jonathan Michaux, Edwin Munro"
+  venue: "Molecular Biology of the Cell (MBoC), 2022"
+  pdf: "https://www.molbiolcell.org/doi/epdf/10.1091/mbc.E21-11-0542"
+  project: ""  # add if you have one
+  image: "/assets/images/papers/modulating.png"
+
+- title: "Excitable RhoA dynamics drive pulsed contractions in the early C. elegans embryo"
+  authors: "Jonathan B. Michaux, François B. Robin, William M. McFadden, Edwin M. Munro"
+  venue: "Journal of Cell Biology (JCB), 2018"
+  pdf: "https://rupress.org/jcb/article-pdf/217/12/4230/1612290/jcb_201806161.pdf"
+  project: ""  # add if you have one
+  image: "/assets/images/papers/excitable.png"
