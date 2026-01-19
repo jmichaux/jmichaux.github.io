@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jon Michaux
+title: ""
 ---
 
 ## About {#about}
