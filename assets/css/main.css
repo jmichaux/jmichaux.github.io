@@ -41,14 +41,16 @@ body {
 
 nav {
   display: flex;
+  justify-content: flex-end;
   gap: 28px;
   margin-bottom: 50px;
 }
 
 nav a {
+  font-size: 22px;
+  font-weight: 800;
   color: #1772d0;
   text-decoration: none;
-  font-weight: 600;
 }
 
 nav a:hover {
