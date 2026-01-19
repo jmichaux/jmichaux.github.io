@@ -4,6 +4,11 @@ title: Blog
 permalink: /blog/
 ---
 
+<ul class="post-list">
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%Y-%m-%d" }}
+  <li class="post-item">
+    <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+  </li>
 {% endfor %}
+</ul>
