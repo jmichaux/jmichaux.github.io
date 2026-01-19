@@ -14,9 +14,15 @@ Previously, I earned a PhD in Cell and Molecular Biology from the University of 
 and a BA in Mathematics from Wayne State University. Over the years, my research work has focused on robotics and cell biology, with an emphasis on safe motion planning, robust control, and quantitative analysis of biological systems. You can reach me by email: jmichaux15 at gmail dot com.
 
 <div class="icon-row">
-  <a href="https://scholar.google.com/citations?user=17UDvBAAAAAJ&hl=en" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-  <a href="https://www.linkedin.com/in/jbmichaux" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-  <a href="https://github.com/jmichaux" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a href="https://scholar.google.com/citations?user=17UDvBAAAAAJ&hl=en" aria-label="Google Scholar">
+    <i class="ai ai-google-scholar"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/jbmichaux" aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+  <a href="https://github.com/jmichaux" aria-label="GitHub">
+    <i class="fa-brands fa-github"></i>
+  </a>
 </div>
 
 </div>
