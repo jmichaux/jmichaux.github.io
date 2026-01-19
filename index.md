@@ -1,8 +1,9 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Jon Michaux
 ---
+
+## About {#about}
 
 <div class="about-container">
 
@@ -27,6 +28,7 @@ and a BA in Mathematics from Wayne State University. Over the years, my research
 </div>
 
 ## Research
+
 <div class="pub-list">
 {% for pub in site.data.publications %}
   <div class="pub">
