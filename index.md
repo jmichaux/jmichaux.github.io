@@ -15,7 +15,7 @@ and a BA in Mathematics from Wayne State University. Over the years, my research
 
 <div class="icon-row">
   <a href="https://scholar.google.com/citations?user=17UDvBAAAAAJ&hl=en" aria-label="Google Scholar">
-    <i class="ai ai-google-scholar"></i>
+    <i class="fa-solid fa-graduation-cap"></i>
   </a>
   <a href="https://www.linkedin.com/in/jbmichaux" aria-label="LinkedIn">
     <i class="fa-brands fa-linkedin"></i>
