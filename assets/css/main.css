@@ -181,44 +181,53 @@ pre code {
    Publications
    =============================== */
 
+/* ===============================
+   Publications (image = full text height)
+   =============================== */
+
 .pub-list {
-  margin-top: 18px;
+  margin-top: 28px;
 }
 
 .pub {
-  display: flex;
-  gap: 18px;
-  align-items: flex-start;
-  margin: 22px 0;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  align-items: stretch; /* KEY: stretch image to text height */
+  margin: 28px 0;
 }
 
 .pub-fig {
-  flex: 0 0 140px;
+  display: flex;
+  align-items: stretch;
 }
 
-/* HARD clamp publication images so they cannot blow up */
 .pub-fig img {
-  display: block;
-  width: 140px !important;
-  height: 90px !important;
-  max-width: 140px !important;
-  max-height: 90px !important;
-  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;   /* no cropping, auto-scale */
   border-radius: 8px;
+  background: #fafafa;   /* subtle frame helps readability */
 }
 
-.pub-body { flex: 1; }
+.pub-body {
+  display: flex;
+  flex-direction: column;
+}
 
 .pub-title {
-  margin: 0;
-  padding: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.25;
 }
 
-.pub-meta { margin-top: 6px; }
-.pub-links { margin-top: 8px; }
+.pub-meta {
+  margin-top: 6px;
+}
+
+.pub-links {
+  margin-top: auto; /* pushes links to bottom */
+}
 
 .pub-links a {
   margin-right: 14px;
