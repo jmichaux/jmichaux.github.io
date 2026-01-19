@@ -1,5 +1,5 @@
 /* ===============================
-   Fonts (keep your existing choice)
+   Fonts
    =============================== */
 
 @font-face {
@@ -35,27 +35,41 @@ body {
   background: #fff;
 }
 
-/* ===============================
-   Navigation
-   =============================== */
-
-nav {
-  display: flex;
-  justify-content: flex-end;
-  gap: 28px;
-  margin-bottom: 50px;
-}
-
-nav a {
-  font-size: 22px;
-  font-weight: 800;
+a {
   color: #1772d0;
   text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
   color: #f09228;
   text-decoration: underline;
+}
+
+/* ===============================
+   Top nav (brand left, links right)
+   =============================== */
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 50px;
+}
+
+.topnav .brand a {
+  font-size: 22px;
+  font-weight: 800;
+  color: #111;
+}
+
+.topnav .links {
+  display: flex;
+  gap: 26px;
+}
+
+.topnav .links a {
+  font-size: 24px;
+  font-weight: 800;
 }
 
 /* ===============================
@@ -76,10 +90,6 @@ h3 {
   font-size: 20px;
   margin-top: 1.5em;
 }
-
-/* ===============================
-   Text
-   =============================== */
 
 p {
   margin: 1em 0;
@@ -113,7 +123,7 @@ pre code {
 }
 
 /* ===============================
-   About page layout helpers
+   About section
    =============================== */
 
 .about-container {
@@ -132,54 +142,12 @@ pre code {
 
 .about-photo img {
   width: 200px;
-  border-radius: 8px;
-}
-
-/* ===============================
-   Publications
-   =============================== */
-
-.publication {
-  margin-bottom: 28px;
-}
-
-.publication-title {
-  font-weight: 700;
-}
-
-.publication-links a {
-  margin-right: 12px;
-}
-
-/* NAV: bigger, right */
-nav {
-  display: flex;
-  justify-content: flex-end;
-  gap: 28px;
-  margin-bottom: 50px;
-}
-
-nav a {
-  font-size: 24px;
-  font-weight: 800;
-  color: #1772d0;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: #f09228;
-  text-decoration: underline;
-}
-
-/* ABOUT: headshot */
-.about-photo img {
-  width: 200px;
   height: 200px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 50%;
 }
 
-/* ICONS: big and centered */
+/* Icons: big and centered */
 .icon-row {
   margin-top: 14px;
   display: flex;
@@ -189,16 +157,13 @@ nav a:hover {
 }
 
 .icon-row a {
-  font-size: 30px;
-  color: #1772d0;
-  text-decoration: none;
+  font-size: 32px;
 }
 
-.icon-row a:hover {
-  color: #f09228;
-}
+/* ===============================
+   Publications
+   =============================== */
 
-/* PUBLICATIONS: smaller images + cleaner layout */
 .pub-list {
   margin-top: 18px;
 }
