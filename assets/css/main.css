@@ -24,6 +24,10 @@
    Global layout
    =============================== */
 
+:root {
+  --nav-size: 24px;
+}
+
 body {
   max-width: 800px;
   margin: 60px auto;
@@ -45,11 +49,15 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Safety: never let random images blow up layout */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* ===============================
    Top nav (brand left, links right)
    =============================== */
-
-:root { --nav-size: 24px; }
 
 .topnav {
   display: flex;
@@ -58,14 +66,15 @@ a:hover {
   margin-bottom: 50px;
 }
 
-.topnav .brand {
+/* IMPORTANT: your HTML has .brand as a div containing an <a> */
+.topnav .brand a {
   font-size: var(--nav-size);
   font-weight: 800;
   color: #1772d0;
   text-decoration: none;
 }
 
-.topnav .brand:hover {
+.topnav .brand a:hover {
   color: #f09228;
   text-decoration: underline;
 }
@@ -88,31 +97,15 @@ a:hover {
 }
 
 /* ===============================
-   Headings
+   Headings / text
    =============================== */
 
-h1 {
-  font-size: 32px;
-  margin-top: 0;
-}
+h1 { font-size: 32px; margin-top: 0; }
+h2 { font-size: 24px; margin-top: 2em; }
+h3 { font-size: 20px; margin-top: 1.5em; }
 
-h2 {
-  font-size: 24px;
-  margin-top: 2em;
-}
-
-h3 {
-  font-size: 20px;
-  margin-top: 1.5em;
-}
-
-p {
-  margin: 1em 0;
-}
-
-strong {
-  font-weight: 700;
-}
+p { margin: 1em 0; }
+strong { font-weight: 700; }
 
 /* ===============================
    Code
@@ -160,10 +153,10 @@ pre code {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  border-radius: 12px;   /* rounded rectangle */
+  border-radius: 12px;
 }
 
-/* Icons: big and centered */
+/* Icons at bottom */
 .icon-row {
   margin-top: 50px;
   padding-top: 20px;
@@ -201,12 +194,20 @@ pre code {
 
 .pub-fig {
   flex: 0 0 140px;
-  margin-top: 2px; /* tiny nudge to match text cap-height */
 }
 
-.pub-body {
-  flex: 1;
+/* HARD clamp publication images so they cannot blow up */
+.pub-fig img {
+  display: block;
+  width: 140px !important;
+  height: 90px !important;
+  max-width: 140px !important;
+  max-height: 90px !important;
+  object-fit: cover;
+  border-radius: 8px;
 }
+
+.pub-body { flex: 1; }
 
 .pub-title {
   margin: 0;
@@ -216,14 +217,17 @@ pre code {
   line-height: 1.25;
 }
 
-.pub-meta {
-  margin: 6px 0 0 0;
-  padding: 0;
+.pub-meta { margin-top: 6px; }
+.pub-links { margin-top: 8px; }
+
+.pub-links a {
+  margin-right: 14px;
+  font-weight: 600;
 }
 
-.pub-links {
-  margin-top: 8px;
-}
+/* ===============================
+   Blog list
+   =============================== */
 
 .post-list {
   list-style: none;
@@ -231,9 +235,7 @@ pre code {
   margin-top: 20px;
 }
 
-.post-item {
-  margin: 16px 0;
-}
+.post-item { margin: 16px 0; }
 
 .post-title {
   font-size: 22px;
