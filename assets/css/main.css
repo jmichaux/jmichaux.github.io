@@ -260,3 +260,8 @@ pre code {
   color: #666;
   font-size: 14px;
 }
+
+/* TEMP: hide publication thumbnails */
+.pub-fig {
+  display: none;
+}
