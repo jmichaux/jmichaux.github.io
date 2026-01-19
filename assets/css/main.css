@@ -185,37 +185,41 @@ pre code {
    Publications (image = full text height)
    =============================== */
 
+/* ===============================
+   Publications (bigger images, top-aligned, no gaps/boxes)
+   =============================== */
+
 .pub-list {
-  margin-top: 28px;
+  margin-top: 18px;
 }
 
 .pub {
-  display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: 24px;
-  align-items: stretch; /* KEY: stretch image to text height */
-  margin: 28px 0;
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;   /* top align image with text block */
+  margin: 26px 0;
 }
 
 .pub-fig {
-  display: flex;
-  align-items: stretch;
+  flex: 0 0 220px;           /* bigger image column */
 }
 
 .pub-fig img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;   /* no cropping, auto-scale */
+  display: block;
+  width: 220px;              /* fixed width */
+  height: auto;              /* preserve aspect ratio */
+  max-height: 160px;         /* prevents insane tall images */
+  object-fit: contain;       /* no cropping */
   border-radius: 8px;
-  background: #fafafa;   /* subtle frame helps readability */
 }
 
+/* text */
 .pub-body {
-  display: flex;
-  flex-direction: column;
+  flex: 1;
 }
 
 .pub-title {
+  margin: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.25;
@@ -226,7 +230,7 @@ pre code {
 }
 
 .pub-links {
-  margin-top: auto; /* pushes links to bottom */
+  margin-top: 8px;           /* sits right under authors/venue */
 }
 
 .pub-links a {
