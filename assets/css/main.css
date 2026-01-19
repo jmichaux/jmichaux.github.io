@@ -56,10 +56,16 @@ a:hover {
   margin-bottom: 50px;
 }
 
-.topnav .brand a {
+.topnav .brand {
   font-size: 22px;
   font-weight: 800;
-  color: #111;
+  color: #1772d0;   /* blue */
+  text-decoration: none;
+}
+
+.topnav .brand:hover {
+  color: #f09228;
+  text-decoration: underline;
 }
 
 .topnav .links {
