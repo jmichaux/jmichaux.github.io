@@ -1,13 +1,6 @@
 ---
 layout: page
 title: About
----
-
-I am a PhD graduate from the Robotics Department at the University of Michigan. Previously, I earned a Ph.D. in Cell and Molecular Biology from the University of Chicago and a B.A. in Maths from Wayne State University.
-You can reach me by email: jmichaux15 at gmail dot com.
----
-layout: page
-title: About
 permalink: /about/
 ---
 
@@ -17,7 +10,7 @@ permalink: /about/
 
 I am a PhD graduate from the Robotics Department at the University of Michigan.
 Previously, I earned a PhD in Cell and Molecular Biology from the University of Chicago
-and a BA in Mathematics from Wayne State University. Over the years, my research work has focused on robotics and cell biology, with an emphasis on safe motion planning, robust control, and quantitative analysis of biological systems.
+and a BA in Mathematics from Wayne State University. Over the years, my research work has focused on robotics and cell biology, with an emphasis on safe motion planning, robust control, and quantitative analysis of biological systems. You can reach me by email: jmichaux15 at gmail dot com.
 
 <div class="icon-row">
   <a href="https://scholar.google.com/citations?user=17UDvBAAAAAJ&hl=en" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
