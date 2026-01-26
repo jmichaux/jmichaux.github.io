@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Denoising Diffusion Probabilistic Models (DDPMs)"
+---
+
 # Denoising Diffusion Probabilistic Models (DDPMs)
 
 *Working notes on the mathematical foundations of diffusion models*
