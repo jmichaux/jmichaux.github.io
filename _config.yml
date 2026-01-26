@@ -10,7 +10,6 @@ kramdown:
 permalink: /blog/:year/:month/:day/:title/
 theme: null
 
-
 collections:
   notes:
     output: true
