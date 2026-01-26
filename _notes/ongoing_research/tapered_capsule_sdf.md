@@ -3,7 +3,6 @@ layout: page
 title: "Tapered Capsule Signed Distance Function"
 ---
 
-# Tapered Capsule Signed Distance Function
 
 ## Problem Formulation
 
@@ -520,12 +519,12 @@ The minimum of a quadratic function subject to box constraints occurs either:
 This is illustrated by the parabola constrained to $x \leq x_0$: the minimum is either the global minimum or occurs at the constraint boundary.
 
 ---
-
+<!-- 
 ## References
 
 - Boyd & Vandenberghe, *Convex Optimization*, Chapter 5 (KKT Conditions)
-- Nocedal & Wright, *Numerical Optimization*, Chapter 12 (Sensitivity Analysis)
-- Ericson, *Real-Time Collision Detection*, Chapter 5 (Capsule-Capsule Distance)
+- Nocedal & Wright, *Numerical Optimization*, Chapter 12 (Sensitivity Analysis) -->
+<!-- - Ericson, *Real-Time Collision Detection*, Chapter 5 (Capsule-Capsule Distance) -->
 
 ---
 
