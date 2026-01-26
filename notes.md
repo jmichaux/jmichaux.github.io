@@ -4,7 +4,9 @@ title: Notes
 permalink: /notes/
 ---
 
-Technical notes and proofs.
+These are informal, evolving technical notes. They are written while learning,
+revisiting, or stress-testing ideas. Clarity is sometimes sacrificed for rigor.
+Errors and gaps are part of the process.
 
 ## Ongoing research
 
