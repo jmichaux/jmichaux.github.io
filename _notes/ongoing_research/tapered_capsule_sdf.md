@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Tapered Capsule Signed Distance Function"
+---
+
 # Tapered Capsule Signed Distance Function
 
 ## Problem Formulation

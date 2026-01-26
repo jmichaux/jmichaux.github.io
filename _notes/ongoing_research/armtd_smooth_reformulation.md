@@ -1,3 +1,8 @@
+---
+layout: page
+title: "A Treatise on the Equivalence between ARMTD and its Smooth Reformulation"
+---
+
 # A Treatise on the "Equivalence" between ARMTD and its Smooth Reformulation
 
 ## Preliminaries and Assumptions
