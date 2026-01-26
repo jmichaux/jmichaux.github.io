@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Equations of Motion for Underactuated Systems"
+---
+
 # Equations of Motion for Underactuated Systems
 
 *Working notes on Lagrangian mechanics applied to pendulum-type systems*

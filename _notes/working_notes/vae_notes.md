@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Variational Autoencoders (VAEs)"
+---
+
 # Variational Autoencoders (VAEs)
 
 *Working notes on the mathematical foundations of VAEs*

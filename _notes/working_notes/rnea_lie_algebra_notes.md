@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Recursive Newton-Euler Algorithm: Lie Algebra Formulation"
+---
+
 # Recursive Newton-Euler Algorithm: Lie Algebra Formulation
 
 *Working notes on the spatial dynamics formulation of RNEA*
