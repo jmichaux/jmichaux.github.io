@@ -9,10 +9,7 @@ title: ""
 
 <div class="about-text">
 
-I am a PhD graduate from the Robotics Department at the University of Michigan.
-Previously, I earned a PhD in Cell and Molecular Biology from the University of Chicago
-and a BA in Mathematics from Wayne State University. Over the years, my research work has focused on robotics and cell biology, with an emphasis on safe motion planning, robust control, and quantitative analysis of biological systems. You can reach me by email: jmichaux15 at gmail dot com.
-
+I have PhDs in Robotics (University of Michigan) and Cell & Molecular Biology (University of Chicago), and a BA in Mathematics from Wayne State University. During my PhDs, I conceived and led multiple research projects spanning provably-safe motion planning, reachability analysis, and perception for robot manipulators, and investigated the molecular mechanisms underlying cellular force generation and RNA structural dynamics. I'm currently interested in building AI-driven autonomous systems that accelerate scientific discovery, advance manufacturing, and improve how we build and maintain the physical world. You can reach me by email: jmichaux15 at gmail dot com.
 
 </div>
 
