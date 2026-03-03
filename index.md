@@ -9,7 +9,11 @@ title: ""
 
 <div class="about-text">
 
-I have PhDs in Robotics (University of Michigan) and Cell & Molecular Biology (University of Chicago), and a BA in Mathematics from Wayne State University. During my PhDs, I conceived and led multiple research projects spanning provably-safe motion planning, reachability analysis, and perception for robot manipulators, and investigated the molecular mechanisms underlying cellular force generation and RNA structural dynamics. I'm currently interested in building AI-driven autonomous systems that accelerate scientific discovery, advance manufacturing, and improve how we build and maintain the physical world. You can reach me by email: jmichaux15 at gmail dot com.
+I have PhDs in Robotics (University of Michigan) and Cell & Molecular Biology (University of Chicago), and a BA in Mathematics from Wayne State University. During my PhDs, I led research on provably-safe robot motion planning and studied the biophysics of cellular force generation and RNA structural dynamics. I care about building AI and autonomous systems that are safe, controllable, and genuinely useful for people, with applications in science, health, education, and manufacturing. You can reach me by email: jmichaux15 at gmail dot com.
+
+
+
+
 
 </div>
 
